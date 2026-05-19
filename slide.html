@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oral Presentation - Vanny Vabiola</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #1a1a1a;
+            color: #eee;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            height: 100vh;
+            width: 100vw;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .slide.active {
+            display: flex;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        img {
+            max-width: 80%;
+            max-height: 60vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            object-fit: contain;
+        }
+        video {
+            max-width: 80%;
+            max-height: 60vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            background: #000;
+        }
+        .controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 100;
+        }
+        button {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .progress {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 5px;
+            background: #007bff;
+            transition: width 0.3s;
+            z-index: 101;
+        }
+        .media-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="slides-container">
+        
+        <div class="slide">
+            <h1>Vanny Vabiola</h1>
+            <div class="media-container">
+                <img src="VannyVabiola.jpg" alt="VannyVabiola.jpg">
+            </div>
+            <h2 style=text-align:right;min-width:70%>Life science dep.<br>Cindy Wang</h2>
+        </div>
+        
+        <div class="slide">
+            <h1>The legends</h1>
+            <div class="media-container">
+                <img src="legends.png" alt="legends.png">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>YouTube suggestions</h1>
+            <div class="media-container">
+                <img src="all-by-my-self-suggest.png" alt="all-by-my-self-suggest.png">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>You raise me up</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-YouRaiseMeUp.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>My heart will go on</h1>
+            <div class="media-container">
+                <video controls style=width:45%><source src="MyHeartWillGoOn.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                <video controls style=width:45%><source src="Vanny-MyHeartWillGoOn.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Making love out of nothing at all</h1>
+            <div class="media-container">
+                <video controls style=width:45%><source src="MakingLoveOutOfNothingAtAll.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                <video controls style=width:45%><source src="Vanny-MakingLoveOutOfNothingAtAll.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Boulevard</h1>
+            <div class="media-container">
+                <video controls style=width:45%><source src="Boulevard.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                <video controls style=width:45%><source src="Vanny-Boulevard.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>The English playlist</h1>
+            <div class="media-container">
+                <img src="playlist-english.png" alt="playlist-english.png">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>YouTube's auto-play</h1>
+            <div class="media-container">
+                <img src="indonesian-suggest.png" alt="indonesian-suggest.png">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>The Indonesian playlist</h1>
+            <div class="media-container">
+                <img src="playlist-indonesian.png" alt="playlist-indonesian.png">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Aku Ingin Kembali</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-AkuInginKembaliCiptaanThomasArya.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>The Minang style</h1>
+            <div class="media-container">
+                <img src="Indonesia.png" alt="Indonesia.png" style=width:45%>
+                <img src="Minangkabau_language.jpg" alt="Minangkabau_language.jpg" style=width:45%>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>The Minang style</h1>
+            <div class="media-container">
+                <img src="trachea.webp" alt="trachea.webp"><img src="small-intestine.jpg" alt="small-intestine.jpg">
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Five stages of grief - denial<br>Malam Itu</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-MalamItu.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Five stages of grief - anger<br>Senyum Membalut Luka</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-SenyumMembalutLuka.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Five stages of grief - bargaining<br>Cinta Lepas Dari Genggaman</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-CintaLepasDariGenggaman.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Five stages of grief - depression<br>Kehilangan Dirimu</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-KehilanganDirimu.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Five stages of grief - acceptance<br>Tuhan Kan Jaga Cinta Ini</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-TuhanKanJagaCintaIni.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Beloved<br>Cinta Sejati</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-CintaSejati.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>Peace<br>Ramadhan</h1>
+            <div class="media-container">
+                <video controls><source src="Vanny-Ramadhan.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        
+        <div class="slide">
+            <h1>I like the foreign language songs</h1>
+            <div class="media-container">
+                <img src="NeverRegret.jpg" alt="NeverRegret.jpg">
+            </div>
+        </div>
+        
+    </div>
+    <div class="progress" id="progress-bar"></div>
+    <div class="controls">
+        <button onclick="prevSlide()">Prev</button>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const progressBar = document.getElementById('progress-bar');
+
+        function showSlide(index, updateHash = true) {
+            slides[currentSlide].classList.remove('active');
+            // Pause any video in the old slide
+            const oldVideos = slides[currentSlide].querySelectorAll('video');
+            oldVideos.forEach(v => v.pause());
+
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            
+            updateProgress();
+            if (updateHash) {
+                window.location.hash = currentSlide + 1;
+            }
+        }
+
+        function handleHash() {
+            const hash = window.location.hash.substring(1);
+            const index = parseInt(hash) - 1;
+            if (!isNaN(index) && index >= 0 && index < slides.length) {
+                if (index !== currentSlide) {
+                    showSlide(index, false);
+                }
+            }
+        }
+
+        window.addEventListener('hashchange', handleHash);
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function updateProgress() {
+            const percent = ((currentSlide + 1) / slides.length) * 100;
+            progressBar.style.width = percent + '%';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+            
+            if (e.key === '1' || e.key === '2') {
+                const videos = slides[currentSlide].querySelectorAll('video');
+                const index = parseInt(e.key) - 1;
+                if (videos[index]) {
+                    if (videos[index].paused) {
+                        videos[index].play();
+                    } else {
+                        videos[index].pause();
+                    }
+                }
+            }
+
+            if (e.key === '0') {
+                const videos = slides[currentSlide].querySelectorAll('video');
+                videos.forEach(v => {
+                    v.currentTime = 0;
+                });
+            }
+        });
+
+        // Initialize
+        if (window.location.hash) {
+            handleHash();
+        } else {
+            slides[0].classList.add('active');
+            updateProgress();
+        }
+    </script>
+</body>
+</html>
