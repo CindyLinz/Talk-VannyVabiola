@@ -142,7 +142,7 @@ When I feel angry, resentful, and want to push that frustration out:
 
 # Five stages of grief - bargaining
 
-This is for when I feel there is still hope and try to find a way out—which is also when I feel extra anxious. It's just like this morning. The oral presentation is terrifying. I listened to this song over and over again.
+This is for when I feel there is still hope and try to find a way out—which is also when I feel extra anxious. It's just like this morning. The oral presentation is terrifying. I have been having diarrhea all morning. And I listened to this song over and over again.
 
 [play 1]
 
