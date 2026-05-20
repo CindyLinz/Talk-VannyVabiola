@@ -1,3 +1,6 @@
+Today I'm wearing a hijab to match the Indonesian female singer I'm introducing.
+Also, I'm very nervous today. Wearing it limits my vision, which really helps calm me down.
+
 # Vanny Vabiola
 
 Vanny Vabiola is an Indonesian singer.
